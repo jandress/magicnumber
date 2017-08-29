@@ -36,7 +36,6 @@ foreach ($file in $targets){
        #write-host "checking" $fileextension "against" $key
         if ($key -eq $fileextension) {
             $lookupmagicnumber = $filetypes.item($key)
-            #$lookupextension = $key
             break
         }
     }
@@ -61,6 +60,4 @@ foreach ($file in $targets){
         write-host "magic number from file -" $filemagicnumber
         write-host "extension should be -" $lookupextension  
     }
-
-
 }
