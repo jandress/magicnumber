@@ -2,6 +2,7 @@
 $path = "c:\code"
 
 #signatures for common file types - this should be expanded and maybe moved to an external file to read in
+#also figure out how to sanely handle duplicates
 $filetypes = @{"pdf" = "25504446";"doc" = "D0CF11E0";"docx" = "504B0304";"xls" = "D0CF11E0";"xls2" = "093C7461";"xlsx" = "504B0304"}
 
 #put together the list of files that we will inspect
